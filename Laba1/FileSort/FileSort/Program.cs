@@ -9,6 +9,8 @@ namespace FileSort
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello, Ksis!");
+            Console.ReadLine();
         }
     }
 }
