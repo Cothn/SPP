@@ -1,6 +1,0 @@
-D:\RepositHub\SPP\Laba1\FileSort\FileSort\bin\Debug\FileSort.exe
-D:\RepositHub\SPP\Laba1\FileSort\FileSort\bin\Debug\FileSort.pdb
-D:\RepositHub\SPP\Laba1\FileSort\FileSort\obj\x86\Debug\FileSort.csprojAssemblyReference.cache
-D:\RepositHub\SPP\Laba1\FileSort\FileSort\obj\x86\Debug\FileSort.csproj.CoreCompileInputs.cache
-D:\RepositHub\SPP\Laba1\FileSort\FileSort\obj\x86\Debug\FileSort.exe
-D:\RepositHub\SPP\Laba1\FileSort\FileSort\obj\x86\Debug\FileSort.pdb

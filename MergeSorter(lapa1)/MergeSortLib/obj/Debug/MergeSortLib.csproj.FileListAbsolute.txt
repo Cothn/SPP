@@ -1,0 +1,10 @@
+D:\Study\Univesity\5 term\Modern Programming Platforms (СПО)\TextSorter\MergeSorter\MergeSortLib\bin\Debug\MergeSortLib.dll
+D:\Study\Univesity\5 term\Modern Programming Platforms (СПО)\TextSorter\MergeSorter\MergeSortLib\bin\Debug\MergeSortLib.pdb
+D:\Study\Univesity\5 term\Modern Programming Platforms (СПО)\TextSorter\MergeSorter\MergeSortLib\obj\Debug\MergeSortLib.dll
+D:\Study\Univesity\5 term\Modern Programming Platforms (СПО)\TextSorter\MergeSorter\MergeSortLib\obj\Debug\MergeSortLib.pdb
+C:\Users\Ami\Downloads\MergeSorter\MergeSorter\MergeSortLib\obj\Debug\MergeSortLib.csprojAssemblyReference.cache
+C:\Users\Ami\Downloads\MergeSorter\MergeSorter\MergeSortLib\obj\Debug\MergeSortLib.csproj.CoreCompileInputs.cache
+C:\Users\Ami\Downloads\MergeSorter\MergeSorter\MergeSortLib\obj\Debug\MergeSortLib.dll
+C:\Users\Ami\Downloads\MergeSorter\MergeSorter\MergeSortLib\obj\Debug\MergeSortLib.pdb
+C:\Users\Ami\Downloads\MergeSorter\MergeSorter\MergeSortLib\bin\Debug\MergeSortLib.dll
+C:\Users\Ami\Downloads\MergeSorter\MergeSorter\MergeSortLib\bin\Debug\MergeSortLib.pdb

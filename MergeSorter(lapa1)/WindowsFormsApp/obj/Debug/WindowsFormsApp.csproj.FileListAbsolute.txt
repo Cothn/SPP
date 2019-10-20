@@ -1,0 +1,25 @@
+D:\Study\Univesity\5 term\Modern Programming Platforms (СПО)\TextSorter\MergeSorter\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe.config
+D:\Study\Univesity\5 term\Modern Programming Platforms (СПО)\TextSorter\MergeSorter\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe
+D:\Study\Univesity\5 term\Modern Programming Platforms (СПО)\TextSorter\MergeSorter\WindowsFormsApp\bin\Debug\WindowsFormsApp.pdb
+D:\Study\Univesity\5 term\Modern Programming Platforms (СПО)\TextSorter\MergeSorter\WindowsFormsApp\obj\Debug\WindowsFormsApp.Properties.Resources.resources
+D:\Study\Univesity\5 term\Modern Programming Platforms (СПО)\TextSorter\MergeSorter\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.GenerateResource.cache
+D:\Study\Univesity\5 term\Modern Programming Platforms (СПО)\TextSorter\MergeSorter\WindowsFormsApp\obj\Debug\WindowsFormsApp.exe
+D:\Study\Univesity\5 term\Modern Programming Platforms (СПО)\TextSorter\MergeSorter\WindowsFormsApp\obj\Debug\WindowsFormsApp.pdb
+D:\Study\Univesity\5 term\Modern Programming Platforms (СПО)\TextSorter\MergeSorter\WindowsFormsApp\obj\Debug\WindowsFormsApp.csprojAssemblyReference.cache
+D:\Study\Univesity\5 term\Modern Programming Platforms (СПО)\TextSorter\MergeSorter\WindowsFormsApp\obj\Debug\WindowsFormsApp.MainForm.resources
+D:\Study\Univesity\5 term\Modern Programming Platforms (СПО)\TextSorter\MergeSorter\WindowsFormsApp\bin\Debug\MergeSortLib.dll
+D:\Study\Univesity\5 term\Modern Programming Platforms (СПО)\TextSorter\MergeSorter\WindowsFormsApp\bin\Debug\MergeSortLib.pdb
+D:\Study\Univesity\5 term\Modern Programming Platforms (СПО)\TextSorter\MergeSorter\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.CopyComplete
+C:\Users\Ami\Downloads\MergeSorter\MergeSorter\WindowsFormsApp\obj\Debug\WindowsFormsApp.csprojAssemblyReference.cache
+C:\Users\Ami\Downloads\MergeSorter\MergeSorter\WindowsFormsApp\obj\Debug\WindowsFormsApp.MainForm.resources
+C:\Users\Ami\Downloads\MergeSorter\MergeSorter\WindowsFormsApp\obj\Debug\WindowsFormsApp.Properties.Resources.resources
+C:\Users\Ami\Downloads\MergeSorter\MergeSorter\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.GenerateResource.cache
+C:\Users\Ami\Downloads\MergeSorter\MergeSorter\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.CoreCompileInputs.cache
+C:\Users\Ami\Downloads\MergeSorter\MergeSorter\WindowsFormsApp\obj\Debug\WindowsFormsApp.exe
+C:\Users\Ami\Downloads\MergeSorter\MergeSorter\WindowsFormsApp\obj\Debug\WindowsFormsApp.pdb
+C:\Users\Ami\Downloads\MergeSorter\MergeSorter\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe.config
+C:\Users\Ami\Downloads\MergeSorter\MergeSorter\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe
+C:\Users\Ami\Downloads\MergeSorter\MergeSorter\WindowsFormsApp\bin\Debug\WindowsFormsApp.pdb
+C:\Users\Ami\Downloads\MergeSorter\MergeSorter\WindowsFormsApp\bin\Debug\MergeSortLib.dll
+C:\Users\Ami\Downloads\MergeSorter\MergeSorter\WindowsFormsApp\bin\Debug\MergeSortLib.pdb
+C:\Users\Ami\Downloads\MergeSorter\MergeSorter\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.CopyComplete
