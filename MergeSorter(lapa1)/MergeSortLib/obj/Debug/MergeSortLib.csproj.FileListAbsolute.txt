@@ -8,3 +8,9 @@ C:\Users\Ami\Downloads\MergeSorter\MergeSorter\MergeSortLib\obj\Debug\MergeSortL
 C:\Users\Ami\Downloads\MergeSorter\MergeSorter\MergeSortLib\obj\Debug\MergeSortLib.pdb
 C:\Users\Ami\Downloads\MergeSorter\MergeSorter\MergeSortLib\bin\Debug\MergeSortLib.dll
 C:\Users\Ami\Downloads\MergeSorter\MergeSorter\MergeSortLib\bin\Debug\MergeSortLib.pdb
+D:\RepositHub\SPP\MergeSorter(lapa1)\MergeSortLib\bin\Debug\MergeSortLib.dll
+D:\RepositHub\SPP\MergeSorter(lapa1)\MergeSortLib\bin\Debug\MergeSortLib.pdb
+D:\RepositHub\SPP\MergeSorter(lapa1)\MergeSortLib\obj\Debug\MergeSortLib.csprojAssemblyReference.cache
+D:\RepositHub\SPP\MergeSorter(lapa1)\MergeSortLib\obj\Debug\MergeSortLib.csproj.CoreCompileInputs.cache
+D:\RepositHub\SPP\MergeSorter(lapa1)\MergeSortLib\obj\Debug\MergeSortLib.dll
+D:\RepositHub\SPP\MergeSorter(lapa1)\MergeSortLib\obj\Debug\MergeSortLib.pdb

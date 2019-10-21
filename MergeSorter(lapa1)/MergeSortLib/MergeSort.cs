@@ -147,7 +147,10 @@ namespace MergeSortLib
             List<String> tempFiles = new List<String>();
             using (StreamReader streamReader = new StreamReader(fileInfo.FullName))
             {
-                for (Int32 i = 0; i < tempFileCount; i++)
+
+                // for (Int32 i = 0; i < tempFileCount; i++)
+                Int32 i = 0;
+                while(!streamReader.EndOfStream)
                 {
                     String tempFileName = Path.Combine(tempPath, "mergetemp" + i.ToString() + ".tmp");
 
@@ -157,15 +160,17 @@ namespace MergeSortLib
                     using (StreamWriter streamWriter = new StreamWriter(tempFileName))
                     {
                         Int64 tempFileSize = 0;
+                        Int32 newLineSymbolSize = streamWriter.NewLine.Length;
                         while ((tempFileSize < maxTempFileSize) && (!streamReader.EndOfStream))
                         {
 							///!!!
                             String tempString = streamReader.ReadLine();
-                            tempFileSize += tempString.Length + 2;
+                            tempFileSize += tempString.Length + newLineSymbolSize;
                             streamWriter.WriteLine(tempString);
                         }
                     }
                     tempFiles.Add(tempFileName);
+                    i++;
                 }
             }
             return tempFiles;

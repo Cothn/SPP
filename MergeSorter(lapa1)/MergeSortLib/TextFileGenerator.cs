@@ -10,10 +10,10 @@ namespace MergeSortLib
     public static class TextFileGenerator
     {
         private static Random Random = new Random((int)DateTime.Now.Ticks);
-        public static void GenerateTextFile(String outputFilePath, Int64 minfileSize)
+        public static void GenerateTextFile(String outputFilePath, Int64 minfileSize, Encoding encod)
         {
             Int64 fileLength = 0;
-            using (StreamWriter streamWriter = new StreamWriter(outputFilePath))
+            using (StreamWriter streamWriter = new StreamWriter(outputFilePath, true, encod))
             {
                 Int32 newLineSymbolSize = streamWriter.NewLine.Length;
                 while (fileLength < minfileSize)

@@ -17,3 +17,13 @@ C:\Users\Ami\Downloads\MergeSorter\MergeSorter\ConsoleApp\bin\Debug\ConsoleApp.p
 C:\Users\Ami\Downloads\MergeSorter\MergeSorter\ConsoleApp\bin\Debug\MergeSortLib.dll
 C:\Users\Ami\Downloads\MergeSorter\MergeSorter\ConsoleApp\bin\Debug\MergeSortLib.pdb
 C:\Users\Ami\Downloads\MergeSorter\MergeSorter\ConsoleApp\obj\Debug\ConsoleApp.csproj.CopyComplete
+D:\RepositHub\SPP\MergeSorter(lapa1)\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+D:\RepositHub\SPP\MergeSorter(lapa1)\ConsoleApp\bin\Debug\ConsoleApp.exe
+D:\RepositHub\SPP\MergeSorter(lapa1)\ConsoleApp\bin\Debug\ConsoleApp.pdb
+D:\RepositHub\SPP\MergeSorter(lapa1)\ConsoleApp\bin\Debug\MergeSortLib.dll
+D:\RepositHub\SPP\MergeSorter(lapa1)\ConsoleApp\bin\Debug\MergeSortLib.pdb
+D:\RepositHub\SPP\MergeSorter(lapa1)\ConsoleApp\obj\Debug\ConsoleApp.csprojAssemblyReference.cache
+D:\RepositHub\SPP\MergeSorter(lapa1)\ConsoleApp\obj\Debug\ConsoleApp.csproj.CoreCompileInputs.cache
+D:\RepositHub\SPP\MergeSorter(lapa1)\ConsoleApp\obj\Debug\ConsoleApp.csproj.CopyComplete
+D:\RepositHub\SPP\MergeSorter(lapa1)\ConsoleApp\obj\Debug\ConsoleApp.exe
+D:\RepositHub\SPP\MergeSorter(lapa1)\ConsoleApp\obj\Debug\ConsoleApp.pdb
