@@ -1,0 +1,10 @@
+C:\Users\User\source\repos\MyBitmapEditor\MyBitmapEditor\bin\Debug\MyBitmapEditor.dll
+C:\Users\User\source\repos\MyBitmapEditor\MyBitmapEditor\bin\Debug\MyBitmapEditor.pdb
+C:\Users\User\source\repos\MyBitmapEditor\MyBitmapEditor\obj\Debug\MyBitmapEditor.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\MyBitmapEditor\MyBitmapEditor\obj\Debug\MyBitmapEditor.dll
+C:\Users\User\source\repos\MyBitmapEditor\MyBitmapEditor\obj\Debug\MyBitmapEditor.pdb
+D:\RepositHub\SPP\ImageEdit(laba2)\MyBitmapEditor\MyBitmapEditor\bin\Debug\MyBitmapEditor.dll
+D:\RepositHub\SPP\ImageEdit(laba2)\MyBitmapEditor\MyBitmapEditor\bin\Debug\MyBitmapEditor.pdb
+D:\RepositHub\SPP\ImageEdit(laba2)\MyBitmapEditor\MyBitmapEditor\obj\Debug\MyBitmapEditor.csproj.CoreCompileInputs.cache
+D:\RepositHub\SPP\ImageEdit(laba2)\MyBitmapEditor\MyBitmapEditor\obj\Debug\MyBitmapEditor.dll
+D:\RepositHub\SPP\ImageEdit(laba2)\MyBitmapEditor\MyBitmapEditor\obj\Debug\MyBitmapEditor.pdb
