@@ -30,6 +30,14 @@
         {
             this.PBmain = new System.Windows.Forms.PictureBox();
             this.Pmain = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.BlueL = new System.Windows.Forms.Label();
+            this.TrackBarBlue = new System.Windows.Forms.TrackBar();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.TrackBarGreen = new System.Windows.Forms.TrackBar();
             this.TrackBarRed = new System.Windows.Forms.TrackBar();
             this.Bdraw = new System.Windows.Forms.Button();
@@ -42,28 +50,20 @@
             this.Bopen = new System.Windows.Forms.Button();
             this.OpenFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.SaveFileDialog = new System.Windows.Forms.SaveFileDialog();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.TrackBarBlue = new System.Windows.Forms.TrackBar();
-            this.BlueL = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.PBmain)).BeginInit();
             this.Pmain.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.TrackBarBlue)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TrackBarGreen)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TrackBarRed)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TrackBarSize)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TrackBarBrightness)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TrackBarAngle)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TrackBarBlue)).BeginInit();
             this.SuspendLayout();
             // 
             // PBmain
             // 
             this.PBmain.Location = new System.Drawing.Point(184, 10);
-            this.PBmain.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PBmain.Margin = new System.Windows.Forms.Padding(2);
             this.PBmain.Name = "PBmain";
             this.PBmain.Size = new System.Drawing.Size(479, 435);
             this.PBmain.TabIndex = 0;
@@ -94,176 +94,28 @@
             this.Pmain.Controls.Add(this.Bsave);
             this.Pmain.Controls.Add(this.Bopen);
             this.Pmain.Location = new System.Drawing.Point(0, 0);
-            this.Pmain.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Pmain.Margin = new System.Windows.Forms.Padding(2);
             this.Pmain.Name = "Pmain";
             this.Pmain.Size = new System.Drawing.Size(180, 445);
             this.Pmain.TabIndex = 1;
             // 
-            // TrackBarGreen
+            // label6
             // 
-            this.TrackBarGreen.LargeChange = 1;
-            this.TrackBarGreen.Location = new System.Drawing.Point(9, 214);
-            this.TrackBarGreen.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.TrackBarGreen.Maximum = 500;
-            this.TrackBarGreen.Minimum = 1;
-            this.TrackBarGreen.Name = "TrackBarGreen";
-            this.TrackBarGreen.Size = new System.Drawing.Size(133, 45);
-            this.TrackBarGreen.TabIndex = 9;
-            this.TrackBarGreen.Value = 123;
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(19, 360);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(27, 13);
+            this.label6.TabIndex = 17;
+            this.label6.Text = "Size";
             // 
-            // TrackBarRed
+            // BlueL
             // 
-            this.TrackBarRed.LargeChange = 1;
-            this.TrackBarRed.Location = new System.Drawing.Point(9, 163);
-            this.TrackBarRed.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.TrackBarRed.Maximum = 500;
-            this.TrackBarRed.Minimum = 1;
-            this.TrackBarRed.Name = "TrackBarRed";
-            this.TrackBarRed.Size = new System.Drawing.Size(133, 45);
-            this.TrackBarRed.TabIndex = 8;
-            this.TrackBarRed.Value = 123;
-            this.TrackBarRed.Scroll += new System.EventHandler(this.TrackBarRed_Scroll);
-            // 
-            // Bdraw
-            // 
-            this.Bdraw.Location = new System.Drawing.Point(11, 40);
-            this.Bdraw.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Bdraw.Name = "Bdraw";
-            this.Bdraw.Size = new System.Drawing.Size(131, 19);
-            this.Bdraw.TabIndex = 7;
-            this.Bdraw.Text = "Draw";
-            this.Bdraw.UseVisualStyleBackColor = true;
-            this.Bdraw.Click += new System.EventHandler(this.Bdraw_Click);
-            // 
-            // Bset
-            // 
-            this.Bset.Location = new System.Drawing.Point(103, 410);
-            this.Bset.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Bset.Name = "Bset";
-            this.Bset.Size = new System.Drawing.Size(56, 19);
-            this.Bset.TabIndex = 6;
-            this.Bset.Text = "Set";
-            this.Bset.UseVisualStyleBackColor = true;
-            this.Bset.Click += new System.EventHandler(this.Bset_Click);
-            // 
-            // TrackBarSize
-            // 
-            this.TrackBarSize.LargeChange = 1;
-            this.TrackBarSize.Location = new System.Drawing.Point(11, 328);
-            this.TrackBarSize.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.TrackBarSize.Maximum = 300;
-            this.TrackBarSize.Minimum = 10;
-            this.TrackBarSize.Name = "TrackBarSize";
-            this.TrackBarSize.Size = new System.Drawing.Size(133, 45);
-            this.TrackBarSize.TabIndex = 5;
-            this.TrackBarSize.Value = 100;
-            this.TrackBarSize.Scroll += new System.EventHandler(this.TrackBarSize_Scroll);
-            // 
-            // Brefresh
-            // 
-            this.Brefresh.Location = new System.Drawing.Point(16, 410);
-            this.Brefresh.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Brefresh.Name = "Brefresh";
-            this.Brefresh.Size = new System.Drawing.Size(56, 19);
-            this.Brefresh.TabIndex = 4;
-            this.Brefresh.Text = "Refresh";
-            this.Brefresh.UseVisualStyleBackColor = true;
-            this.Brefresh.Click += new System.EventHandler(this.Brefresh_Click);
-            // 
-            // TrackBarBrightness
-            // 
-            this.TrackBarBrightness.LargeChange = 1;
-            this.TrackBarBrightness.Location = new System.Drawing.Point(9, 113);
-            this.TrackBarBrightness.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.TrackBarBrightness.Maximum = 500;
-            this.TrackBarBrightness.Minimum = 1;
-            this.TrackBarBrightness.Name = "TrackBarBrightness";
-            this.TrackBarBrightness.Size = new System.Drawing.Size(133, 45);
-            this.TrackBarBrightness.TabIndex = 3;
-            this.TrackBarBrightness.Value = 123;
-            this.TrackBarBrightness.Scroll += new System.EventHandler(this.TrackBarBrightness_Scroll);
-            // 
-            // TrackBarAngle
-            // 
-            this.TrackBarAngle.LargeChange = 1;
-            this.TrackBarAngle.Location = new System.Drawing.Point(9, 63);
-            this.TrackBarAngle.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.TrackBarAngle.Maximum = 360;
-            this.TrackBarAngle.Name = "TrackBarAngle";
-            this.TrackBarAngle.Size = new System.Drawing.Size(133, 45);
-            this.TrackBarAngle.TabIndex = 2;
-            this.TrackBarAngle.Scroll += new System.EventHandler(this.TrackBarAngle_Scroll);
-            // 
-            // Bsave
-            // 
-            this.Bsave.Location = new System.Drawing.Point(81, 0);
-            this.Bsave.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Bsave.Name = "Bsave";
-            this.Bsave.Size = new System.Drawing.Size(61, 21);
-            this.Bsave.TabIndex = 1;
-            this.Bsave.Text = "Save Image";
-            this.Bsave.UseVisualStyleBackColor = true;
-            this.Bsave.Click += new System.EventHandler(this.Bsave_Click);
-            // 
-            // Bopen
-            // 
-            this.Bopen.Location = new System.Drawing.Point(2, 0);
-            this.Bopen.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Bopen.Name = "Bopen";
-            this.Bopen.Size = new System.Drawing.Size(63, 21);
-            this.Bopen.TabIndex = 0;
-            this.Bopen.Text = "Open Image";
-            this.Bopen.UseVisualStyleBackColor = true;
-            this.Bopen.Click += new System.EventHandler(this.Bopen_Click);
-            // 
-            // OpenFileDialog
-            // 
-            this.OpenFileDialog.FileName = "openFileDialog1";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 95);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(34, 13);
-            this.label1.TabIndex = 10;
-            this.label1.Text = "Angle";
-            this.label1.Click += new System.EventHandler(this.Label1_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(13, 145);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(0, 13);
-            this.label2.TabIndex = 11;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(13, 148);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(56, 13);
-            this.label3.TabIndex = 12;
-            this.label3.Text = "Brightness";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(13, 199);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(27, 13);
-            this.label4.TabIndex = 13;
-            this.label4.Text = "Red";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(13, 249);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(36, 13);
-            this.label5.TabIndex = 14;
-            this.label5.Text = "Green";
+            this.BlueL.AutoSize = true;
+            this.BlueL.Location = new System.Drawing.Point(13, 296);
+            this.BlueL.Name = "BlueL";
+            this.BlueL.Size = new System.Drawing.Size(28, 13);
+            this.BlueL.TabIndex = 16;
+            this.BlueL.Text = "Blue";
             // 
             // TrackBarBlue
             // 
@@ -276,24 +128,174 @@
             this.TrackBarBlue.Size = new System.Drawing.Size(133, 45);
             this.TrackBarBlue.TabIndex = 15;
             this.TrackBarBlue.Value = 123;
+            this.TrackBarBlue.Scroll += new System.EventHandler(this.TrackBarBlue_Scroll);
             // 
-            // BlueL
+            // label5
             // 
-            this.BlueL.AutoSize = true;
-            this.BlueL.Location = new System.Drawing.Point(13, 296);
-            this.BlueL.Name = "BlueL";
-            this.BlueL.Size = new System.Drawing.Size(28, 13);
-            this.BlueL.TabIndex = 16;
-            this.BlueL.Text = "Blue";
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(13, 249);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(36, 13);
+            this.label5.TabIndex = 14;
+            this.label5.Text = "Green";
             // 
-            // label6
+            // label4
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(19, 360);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(27, 13);
-            this.label6.TabIndex = 17;
-            this.label6.Text = "Size";
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(13, 199);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(27, 13);
+            this.label4.TabIndex = 13;
+            this.label4.Text = "Red";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(13, 148);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(56, 13);
+            this.label3.TabIndex = 12;
+            this.label3.Text = "Brightness";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(13, 145);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(0, 13);
+            this.label2.TabIndex = 11;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(13, 95);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(34, 13);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "Angle";
+            this.label1.Click += new System.EventHandler(this.Label1_Click);
+            // 
+            // TrackBarGreen
+            // 
+            this.TrackBarGreen.LargeChange = 1;
+            this.TrackBarGreen.Location = new System.Drawing.Point(9, 214);
+            this.TrackBarGreen.Margin = new System.Windows.Forms.Padding(2);
+            this.TrackBarGreen.Maximum = 500;
+            this.TrackBarGreen.Minimum = 1;
+            this.TrackBarGreen.Name = "TrackBarGreen";
+            this.TrackBarGreen.Size = new System.Drawing.Size(133, 45);
+            this.TrackBarGreen.TabIndex = 9;
+            this.TrackBarGreen.Value = 123;
+            this.TrackBarGreen.Scroll += new System.EventHandler(this.TrackBarGreen_Scroll);
+            // 
+            // TrackBarRed
+            // 
+            this.TrackBarRed.LargeChange = 1;
+            this.TrackBarRed.Location = new System.Drawing.Point(9, 163);
+            this.TrackBarRed.Margin = new System.Windows.Forms.Padding(2);
+            this.TrackBarRed.Maximum = 500;
+            this.TrackBarRed.Minimum = 1;
+            this.TrackBarRed.Name = "TrackBarRed";
+            this.TrackBarRed.Size = new System.Drawing.Size(133, 45);
+            this.TrackBarRed.TabIndex = 8;
+            this.TrackBarRed.Value = 123;
+            this.TrackBarRed.Scroll += new System.EventHandler(this.TrackBarRed_Scroll);
+            // 
+            // Bdraw
+            // 
+            this.Bdraw.Location = new System.Drawing.Point(11, 40);
+            this.Bdraw.Margin = new System.Windows.Forms.Padding(2);
+            this.Bdraw.Name = "Bdraw";
+            this.Bdraw.Size = new System.Drawing.Size(131, 19);
+            this.Bdraw.TabIndex = 7;
+            this.Bdraw.Text = "Draw";
+            this.Bdraw.UseVisualStyleBackColor = true;
+            this.Bdraw.Click += new System.EventHandler(this.Bdraw_Click);
+            // 
+            // Bset
+            // 
+            this.Bset.Location = new System.Drawing.Point(103, 410);
+            this.Bset.Margin = new System.Windows.Forms.Padding(2);
+            this.Bset.Name = "Bset";
+            this.Bset.Size = new System.Drawing.Size(56, 19);
+            this.Bset.TabIndex = 6;
+            this.Bset.Text = "Set";
+            this.Bset.UseVisualStyleBackColor = true;
+            this.Bset.Click += new System.EventHandler(this.Bset_Click);
+            // 
+            // TrackBarSize
+            // 
+            this.TrackBarSize.LargeChange = 1;
+            this.TrackBarSize.Location = new System.Drawing.Point(11, 328);
+            this.TrackBarSize.Margin = new System.Windows.Forms.Padding(2);
+            this.TrackBarSize.Maximum = 300;
+            this.TrackBarSize.Minimum = 10;
+            this.TrackBarSize.Name = "TrackBarSize";
+            this.TrackBarSize.Size = new System.Drawing.Size(133, 45);
+            this.TrackBarSize.TabIndex = 5;
+            this.TrackBarSize.Value = 100;
+            this.TrackBarSize.Scroll += new System.EventHandler(this.TrackBarSize_Scroll);
+            // 
+            // Brefresh
+            // 
+            this.Brefresh.Location = new System.Drawing.Point(16, 410);
+            this.Brefresh.Margin = new System.Windows.Forms.Padding(2);
+            this.Brefresh.Name = "Brefresh";
+            this.Brefresh.Size = new System.Drawing.Size(56, 19);
+            this.Brefresh.TabIndex = 4;
+            this.Brefresh.Text = "Refresh";
+            this.Brefresh.UseVisualStyleBackColor = true;
+            this.Brefresh.Click += new System.EventHandler(this.Brefresh_Click);
+            // 
+            // TrackBarBrightness
+            // 
+            this.TrackBarBrightness.LargeChange = 1;
+            this.TrackBarBrightness.Location = new System.Drawing.Point(9, 113);
+            this.TrackBarBrightness.Margin = new System.Windows.Forms.Padding(2);
+            this.TrackBarBrightness.Maximum = 500;
+            this.TrackBarBrightness.Minimum = 1;
+            this.TrackBarBrightness.Name = "TrackBarBrightness";
+            this.TrackBarBrightness.Size = new System.Drawing.Size(133, 45);
+            this.TrackBarBrightness.TabIndex = 3;
+            this.TrackBarBrightness.Value = 123;
+            this.TrackBarBrightness.Scroll += new System.EventHandler(this.TrackBarBrightness_Scroll);
+            // 
+            // TrackBarAngle
+            // 
+            this.TrackBarAngle.LargeChange = 1;
+            this.TrackBarAngle.Location = new System.Drawing.Point(9, 63);
+            this.TrackBarAngle.Margin = new System.Windows.Forms.Padding(2);
+            this.TrackBarAngle.Maximum = 360;
+            this.TrackBarAngle.Name = "TrackBarAngle";
+            this.TrackBarAngle.Size = new System.Drawing.Size(133, 45);
+            this.TrackBarAngle.TabIndex = 2;
+            this.TrackBarAngle.Scroll += new System.EventHandler(this.TrackBarAngle_Scroll);
+            // 
+            // Bsave
+            // 
+            this.Bsave.Location = new System.Drawing.Point(81, 0);
+            this.Bsave.Margin = new System.Windows.Forms.Padding(2);
+            this.Bsave.Name = "Bsave";
+            this.Bsave.Size = new System.Drawing.Size(61, 21);
+            this.Bsave.TabIndex = 1;
+            this.Bsave.Text = "Save Image";
+            this.Bsave.UseVisualStyleBackColor = true;
+            this.Bsave.Click += new System.EventHandler(this.Bsave_Click);
+            // 
+            // Bopen
+            // 
+            this.Bopen.Location = new System.Drawing.Point(2, 0);
+            this.Bopen.Margin = new System.Windows.Forms.Padding(2);
+            this.Bopen.Name = "Bopen";
+            this.Bopen.Size = new System.Drawing.Size(63, 21);
+            this.Bopen.TabIndex = 0;
+            this.Bopen.Text = "Open Image";
+            this.Bopen.UseVisualStyleBackColor = true;
+            this.Bopen.Click += new System.EventHandler(this.Bopen_Click);
+            // 
+            // OpenFileDialog
+            // 
+            this.OpenFileDialog.FileName = "openFileDialog1";
             // 
             // FMain
             // 
@@ -304,19 +306,19 @@
             this.Controls.Add(this.PBmain);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FMain";
             this.Text = "Main Form";
             this.Load += new System.EventHandler(this.FMain_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PBmain)).EndInit();
             this.Pmain.ResumeLayout(false);
             this.Pmain.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.TrackBarBlue)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TrackBarGreen)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TrackBarRed)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TrackBarSize)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TrackBarBrightness)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TrackBarAngle)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TrackBarBlue)).EndInit();
             this.ResumeLayout(false);
 
         }
