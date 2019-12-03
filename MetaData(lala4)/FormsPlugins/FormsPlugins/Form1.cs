@@ -11,7 +11,7 @@ using WindowsAttribute;
 
 namespace FormsPlugins
 {
-    [WindowAttribute(DockStyle.Bottom)]
+    [WindowAttribute(DockStyle.Top)]
     public partial class Form1 : Form, FormInterface
     {
         public Form1()
@@ -20,6 +20,11 @@ namespace FormsPlugins
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
         {
 
         }

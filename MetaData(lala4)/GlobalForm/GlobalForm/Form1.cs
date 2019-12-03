@@ -47,11 +47,24 @@ namespace GlobalForm
                     var form = asm.CreateInstance(type.FullName) as Form;
                     form.MdiParent = this;
                     form.StartPosition = FormStartPosition.Manual;
+
                     object[] attributes = type.GetCustomAttributes(typeof(WindowAttribute), inherit: true);
                     if (attributes.Length != 0)
                     {
                         WindowAttribute windowAttribute = (WindowAttribute)attributes[0];
                         form.Dock = windowAttribute.Dock;
+                    }
+
+                    FieldInfo[] fields = type.GetFields();
+                    foreach(FieldInfo field in fields)
+                    {
+                        attributes = field.GetCustomAttributes(typeof(WindowAttribute), inherit: true);
+                        if (attributes.Length != 0)
+                        {
+                            WindowAttribute windowAttribute = (WindowAttribute)attributes[0];
+                            Control butt = field.GetValue(form) as Control;
+                            butt.Dock = windowAttribute.Dock;
+                        }
                     }
                     form.Show();
                 }

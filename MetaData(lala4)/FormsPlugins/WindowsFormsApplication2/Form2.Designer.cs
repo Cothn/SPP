@@ -1,4 +1,7 @@
-﻿namespace FormsPlugins
+﻿using PluginsInterface;
+using WindowsAttribute;
+using System.Windows.Forms;
+namespace FormsPlugins
 {
     partial class Form2
     {
@@ -33,12 +36,14 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(58, 73);
+            this.button1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button1.Location = new System.Drawing.Point(0, 0);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(385, 23);
             this.button1.TabIndex = 0;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form2
             // 
@@ -55,6 +60,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+            [WindowAttribute(DockStyle.Bottom)]
+        public System.Windows.Forms.Button button1;
     }
 }
