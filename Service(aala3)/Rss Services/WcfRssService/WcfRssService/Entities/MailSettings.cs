@@ -11,8 +11,9 @@ namespace WcfRssService.Entities
 
         static MailSettings()
         {
+            settings.Add("mail.ru", new MailSettings("smtp.mail.ru", 465));
             settings.Add("gmail.com", new MailSettings("smtp.gmail.com", 587));
-            settings.Add("yandex.ru", new MailSettings("smtp.yandex.ru", 25));
+            settings.Add("yandex.by", new MailSettings("smtp.yandex.ru", 25));
         }
         public MailSettings(String host, Int32 port)
         {

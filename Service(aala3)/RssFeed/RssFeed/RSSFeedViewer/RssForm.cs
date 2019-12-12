@@ -19,7 +19,7 @@ namespace RSSFeedViewer
 {
     public partial class RssForm : Form
     {
-        private List<SyndicationItem> feeditems = new List<SyndicationItem>();
+        //private List<SyndicationItem> feeditems = new List<SyndicationItem>();
         private Dictionary<String,Uri> RssFeedItems = new Dictionary<String, Uri>();
 
         IRssFeedService simpleService = new SimpleService();
@@ -36,7 +36,7 @@ namespace RSSFeedViewer
             currService = simpleService;
 
             ColumnHeader header = new ColumnHeader();
-            header.Text = "";
+            header.Text = "header";
             header.Name = "col";
             header.Width = 500;
 

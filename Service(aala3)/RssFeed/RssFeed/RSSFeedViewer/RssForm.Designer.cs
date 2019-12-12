@@ -58,10 +58,12 @@
             this.listViewTitleList.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.listViewTitleList.BackColor = System.Drawing.Color.RosyBrown;
+            this.listViewTitleList.ForeColor = System.Drawing.Color.Chocolate;
             this.listViewTitleList.HideSelection = false;
-            this.listViewTitleList.Location = new System.Drawing.Point(3, 112);
+            this.listViewTitleList.Location = new System.Drawing.Point(3, 127);
             this.listViewTitleList.Name = "listViewTitleList";
-            this.listViewTitleList.Size = new System.Drawing.Size(393, 556);
+            this.listViewTitleList.Size = new System.Drawing.Size(393, 548);
             this.listViewTitleList.TabIndex = 1;
             this.listViewTitleList.UseCompatibleStateImageBehavior = false;
             this.listViewTitleList.View = System.Windows.Forms.View.List;
@@ -77,6 +79,7 @@
             // 
             // splitContainer1.Panel1
             // 
+            this.splitContainer1.Panel1.BackColor = System.Drawing.Color.Silver;
             this.splitContainer1.Panel1.Controls.Add(this.checkBoxUseWebServices);
             this.splitContainer1.Panel1.Controls.Add(this.buttonUpdateFeed);
             this.splitContainer1.Panel1.Controls.Add(this.buttonConfigureService);
@@ -92,33 +95,43 @@
             // checkBoxUseWebServices
             // 
             this.checkBoxUseWebServices.AutoSize = true;
-            this.checkBoxUseWebServices.Location = new System.Drawing.Point(3, 89);
+            this.checkBoxUseWebServices.BackColor = System.Drawing.SystemColors.Control;
+            this.checkBoxUseWebServices.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.checkBoxUseWebServices.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.checkBoxUseWebServices.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.checkBoxUseWebServices.Location = new System.Drawing.Point(11, 94);
             this.checkBoxUseWebServices.Name = "checkBoxUseWebServices";
-            this.checkBoxUseWebServices.Size = new System.Drawing.Size(110, 17);
+            this.checkBoxUseWebServices.Size = new System.Drawing.Size(105, 20);
             this.checkBoxUseWebServices.TabIndex = 5;
             this.checkBoxUseWebServices.Text = "Use web services";
-            this.checkBoxUseWebServices.UseVisualStyleBackColor = true;
+            this.checkBoxUseWebServices.UseVisualStyleBackColor = false;
             this.checkBoxUseWebServices.CheckedChanged += new System.EventHandler(this.checkBoxUseWebServices_CheckedChanged);
             // 
             // buttonUpdateFeed
             // 
             this.buttonUpdateFeed.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonUpdateFeed.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.buttonUpdateFeed.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonUpdateFeed.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.buttonUpdateFeed.Location = new System.Drawing.Point(3, 53);
             this.buttonUpdateFeed.Name = "buttonUpdateFeed";
             this.buttonUpdateFeed.Size = new System.Drawing.Size(393, 35);
             this.buttonUpdateFeed.TabIndex = 4;
             this.buttonUpdateFeed.Text = "Update";
-            this.buttonUpdateFeed.UseVisualStyleBackColor = true;
+            this.buttonUpdateFeed.UseVisualStyleBackColor = false;
             this.buttonUpdateFeed.Click += new System.EventHandler(this.buttonUpdateFeed_Click);
             // 
             // buttonConfigureService
             // 
+            this.buttonConfigureService.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.buttonConfigureService.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonConfigureService.ForeColor = System.Drawing.Color.DarkRed;
             this.buttonConfigureService.Location = new System.Drawing.Point(3, 10);
             this.buttonConfigureService.Name = "buttonConfigureService";
             this.buttonConfigureService.Size = new System.Drawing.Size(393, 37);
             this.buttonConfigureService.TabIndex = 3;
             this.buttonConfigureService.Text = "Configure service";
-            this.buttonConfigureService.UseVisualStyleBackColor = true;
+            this.buttonConfigureService.UseVisualStyleBackColor = false;
             this.buttonConfigureService.Click += new System.EventHandler(this.buttonConfigureService_Click);
             // 
             // timerMailingTimer
@@ -129,6 +142,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightGray;
             this.ClientSize = new System.Drawing.Size(1200, 682);
             this.Controls.Add(this.splitContainer1);
             this.Name = "RssForm";

@@ -39,7 +39,8 @@ namespace WcfRssService
                                 {
                                     lock (lockMe)
                                     {
-                                        result.Add(item.Title.Text, item.Links[0].Uri);
+                                        if (!result.ContainsKey(item.Title.Text.Trim()))
+                                            result.Add(item.Title.Text, item.Links[0].Uri);
                                     }
                                 }
                             }

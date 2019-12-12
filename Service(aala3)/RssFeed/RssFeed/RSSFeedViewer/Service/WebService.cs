@@ -46,13 +46,13 @@ namespace RSSFeedViewer.Service
             return result;
         }
 
-        public void SendFeedByEmail(String senderEmail, String senderPassword, Dictionary<String, Uri> feed, List<String> tags)
+        public void SendFeedByEmail(String senderEmail, String senderPassword, Dictionary<String, Uri> feed, List<String> recepients)
         {
             try
             {
                 using (MailingService.MailingServiceClient client = new MailingService.MailingServiceClient())
                 {
-                    client.SendFeedByEmail(senderEmail, senderPassword, feed, tags.ToArray());
+                    client.SendFeedByEmail(senderEmail, senderPassword, feed, recepients.ToArray());
                 }
             }
             catch (Exception ex)

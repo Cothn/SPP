@@ -99,7 +99,7 @@ namespace RSSFeedViewer.Service
             string body = String.Empty;
             foreach (var news in feed)
             {
-                body += news.Key + " " + news.Value.ToString() + '\n';
+                body += news.Key + ": " + news.Value.ToString() + '\n';
             }
 
             Parallel.ForEach(recepients, (recepient) =>
